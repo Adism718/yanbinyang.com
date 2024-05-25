@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>杨严宾的个人网站</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 40px 0;
+        }
+        .section-title {
+            font-size: 2em;
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 10px;
+        }
+        .project, .research, .portfolio, .lab, .hobbies {
+            margin: 20px 0;
+        }
+        .project-item, .research-item, .portfolio-item, .lab-item, .hobby-item {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #1e1e1e;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>杨严宾的个人网站</h1>
+    </header>
+    <nav>
+        <a href="#home">主页</a>
+        <a href="#projects">项目</a>
+        <a href="#portfolio">作品集</a>
+        <a href="#research">研究</a>
+        <a href="#lab">实验室</a>
+        <a href="#hobbies">业余生活</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2 class="section-title">主页</h2>
+            <p>你好，我叫杨严宾，正在就读于四川农业大学风景园林专业，我的研究聚焦于人机交互，嵌入式开发，探讨空间和人的交互。我有三年的科研项目经验，涉及能力有机器学习、图像分割、数据可视化、数据分析等。在学习工作之余，我酷爱骑行，健身，徒步，摄影。</p>
+        </section>
+        <section id="projects">
+            <h2 class="section-title">项目</h2>
+            <div class="project-item">
+                <h3>项目1</h3>
+                <p>详细介绍项目1的内容、你的角色和取得的成果。</p>
+            </div>
+            <div class="project-item">
+                <h3>项目2</h3>
+                <p>详细介绍项目2的内容、你的角色和取得的成果。</p>
+            </div>
+            <!-- 添加更多项目项 -->
+        </section>
+        <section id="portfolio">
+            <h2 class="section-title">作品集</h2>
+            <div class="portfolio-item">
+                <h3>作品1</h3>
+                <p>描述作品1的细节和成就。</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>作品2</h3>
+                <p>描述作品2的细节和成就。</p>
+            </div>
+            <!-- 添加更多作品项 -->
+        </section>
+        <section id="research">
+            <h2 class="section-title">研究</h2>
+            <div class="research-item">
+                <h3>研究方向1</h3>
+                <p>描述你在研究方向1上的工作和成果。</p>
+            </div>
+            <div class="research-item">
+                <h3>研究方向2</h3>
+                <p>描述你在研究方向2上的工作和成果。</p>
+            </div>
+            <!-- 添加更多研究项 -->
+        </section>
+        <section id="lab">
+            <h2 class="section-title">实验室</h2>
+            <div class="lab-item">
+                <h3>实验室工作1</h3>
+                <p>描述你在实验室工作1中的内容和成就。</p>
+            </div>
+            <div class="lab-item">
+                <h3>实验室工作2</h3>
+                <p>描述你在实验室工作2中的内容和成就。</p>
+            </div>
+            <!-- 添加更多实验室工作项 -->
+        </section>
+        <section id="hobbies">
+            <h2 class="section-title">业余生活</h2>
+            <div class="hobby-item">
+                <h3>骑行</h3>
+                <p>描述你在骑行方面的爱好和经历。</p>
+            </div>
+            <div class="hobby-item">
+                <h3>健身</h3>
+                <p>描述你在健身方面的爱好和经历。</p>
+            </div>
+            <div class="hobby-item">
+                <h3>徒步</h3>
+                <p>描述你在徒步方面的爱好和经历。</p>
+            </div>
+            <div class="hobby-item">
+                <h3>摄影</h3>
+                <p>描述你在摄影方面的爱好和经历。</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 杨严宾的个人网站. All rights reserved.</p>
+    </footer>
+</body>
+</html>
